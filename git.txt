@@ -1,0 +1,27 @@
+How to Install Git on a Local Machine
+Here is a guideline on how to install Git on the three most common Operating System:
+
+Windows
+-	Download Git for Windows from the official website: https://gitforwindows.org/  
+-	Run the downloaded installer.
+-	Follow the installation wizard's instructions. 
+-	During the installation, you'll be asked to select the default editor. You can choose the default editor you're comfortable with (e.g., Nano, Vim, or Notepad++), or you can choose the default Git Bash editor.
+-	Complete the installation.
+-	Open the Git Bash terminal to verify that Git has been installed successfully. You can do this by searching for "Git Bash" in the Start menu.
+-	
+MacOS	
+Git is usually pre-installed in MacOS. Open the Terminal application, and you can check the Git version by running the following command:
+-	git --version
+If Git happen not to be installed or you want to update it, you can install it using the Homebrew package manager. If you don't have Homebrew installed, you can install it by following the instructions on the homebrew website: https://brew.sh 
+Once you have brew installed, run the following command:
+-	brew install git
+Verify the installation by running the following command:
+-	git --version
+
+Linus OS
+Open a terminal, run the following command to install Git:
+-	sudo apt update
+-	sudo apt install git
+Verify the installation by running the command:
+-	git --version
+
