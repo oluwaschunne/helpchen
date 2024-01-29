@@ -2,7 +2,7 @@
 
 A guide on:
 
-- ==Git/GitHub download and Installation==
-- ==Creating GitHub Account==
-- ==Cloning of Repository to local machine==
-- ==Various git commands and their functions==
+- Git/GitHub download and Installation
+- Creating GitHub Account
+- Cloning of Repository to local machine
+- Various git commands and their functions
