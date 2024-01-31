@@ -1,0 +1,61 @@
+20 git commands and their functions
+
+1. git init
+   - Initializes a new Git repository in the current directory.
+
+2. git clone [repository_url]
+   - Creates a copy of a remote repository on your local machine.
+
+3. git add [file(s)]
+   - Adds changes in the working directory to the staging area.
+
+4. git commit -m "[commit_message]"
+   - Records changes in the staging area and creates a new commit.
+
+5. git status
+   - Shows the status of changes as untracked, modified, or staged.
+
+6. git log
+   - Displays a log of all commits, showing commit messages and details.
+
+7. git branch
+   - Lists all local branches in the repository.
+
+8. git branch [branch_name]
+   - Creates a new branch with the specified name.
+
+9. git checkout [branch_name]
+   - Switches to the specified branch.
+
+10. git merge [branch_name]
+    - Combines changes from the specified branch into the current branch.
+
+11. git pull
+    - Fetches changes from a remote repository and merges them into the current branch.
+
+12. git push
+    - Sends local changes to a remote repository.
+
+13. git remote -v
+    - Lists all remote repositories associated with the current repository.
+
+14. git fetch
+    - Downloads changes from a remote repository without merging them.
+
+15. git diff
+    - Shows the differences between the working directory and the last commit.
+
+16. git reset [file(s)]
+    - Unstages the specified file(s) from the staging area.
+
+17. git rm [file(s)]
+    - Removes the specified file(s) from both the working directory and the staging area.
+
+18. git tag [tag_name]
+    - Creates a lightweight tag at the current commit.
+
+19. git revert [commit_hash]
+    - Reverts a commit, creating a new commit that undoes the specified commit.
+
+20. git stash
+    - Temporarily saves changes that are not ready to be committed, allowing you to switch branches.
